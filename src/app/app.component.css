@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    color: var(--cor-5);
+}
+
+.cliqueaqui:hover{
+    /* padding: 5px; */
+    border-radius: 2px;
+    /* background-color: var(--cor-2); */
+    border-bottom: var(--cor-3) solid 3px;
+}
+
+.titulo1-h1{
+    background-color: var(--cor-4);
+    border: var(--cor-5) solid 5px;
+}
+
+.divbarrapesquisa{
+    background-color: var(--cor-1);
+    border-radius: 25px;
+    border: var(--cor-1) solid; 
+}
+
+.barrapesquisa2{
+    border-top-left-radius:25px;
+    border-bottom-left-radius:25px;
+    border: var(--cor-1) solid;
+}
+
+.icone{
+    padding-left: 5px;
+    padding-bottom: 2px;
+}
+
+.bordatitulos{
+    border-left: var(--cor-5) solid 5px;
+}
+
+.botao{
+    border-top-right-radius:25px;
+    border-bottom-right-radius:25px;
+    background-color: var(--cor-1);
+    border: var(--cor-5) solid;
+    color: var(--cor-4);
+}  
+
+.botao:hover{
+    background-color: var(--cor-2);
+    border: var(--cor-3) solid;
+    color: var(--cor-5);
+
+}
+
+.botaoins{
+    width: 150px;
+    height: auto;
+    background-color: var(--cor-1);
+    border: var(--cor-5) solid;
+    color: var(--cor-4);
+}
+
+.botaoins:hover{
+    background-color: var(--cor-2);
+    border: var(--cor-3) solid;
+    color: var(--cor-5);
+}
+
