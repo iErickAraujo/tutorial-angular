@@ -1,0 +1,348 @@
+<!-- <h3>header</h3>
+<nav>
+  <a routerLink="/">pagina1</a>
+  <a routerLink="/2">pagina2</a>
+</nav>
+<router-outlet></router-outlet>
+<h3>footer</h3> -->
+<!-- NavBar -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Bootstrap demo</title> -->
+    <meta name="Erick Fernando Araújo Oliveira" content="©">
+
+</head>
+
+<body>
+
+    <!-- Conteudo -->
+    <div class="container">
+        <div class="container-fluid">
+            <div class="titulo1-h1 m-2 mb-4 mt-4 p-1">
+                <h1 class="text-center">Tutorial de instalação do Angular</h1>
+            </div>
+
+            <!-- node -->
+            <div class="col">
+                <h4 class="ps-2 bordatitulos">Node</h4>
+                <p>Começaremos baixando o node no computador, recomendamos que baixe a versão LTS. Para baixar o
+                    node <a class="cliqueaqui" href="https://nodejs.org/en/download/">clique aqui.</a></p>
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                LTS o que é?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>LTS significa Suporte de Longo Prazo e
+                                    a versão recomendada para a maioria dos usuários.</strong> Nodejs org. faz
+                                novas
+                                versões
+                                frequentemente
+                                com novos recursos, correções de bugs e otimizações de desempenho. Como regra
+                                geral,
+                                podemos
+                                assumir com segurança que a versão mais recente é sempre a melhor versão a ser
+                                usada.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- nvm -->
+            <div class="container-fluid">
+                <hr class="my-4">
+                <h4 class="ps-2 bordatitulos">Node Version Manager</h4>
+                <p>Em seguida instalaremos o nvm, para um melhor gerenciamento das versões do node <a
+                        class="cliqueaqui" href="https://github.com/coreybutler/nvm-windows/releases">clique aqui.</a>
+                </p>
+
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading2">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                NVM o que é?
+                            </button>
+                        </h2>
+                        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>O Node Version Manager, mais
+                                    comumente chamado de NVM, é a maneira mais popular de instalar várias
+                                    versões do
+                                    Node.js.</strong> Mas
+                                só está disponível para Mac/Linux e não tem suporte no Windows. Em vez disso,
+                                recomendamos
+                                instalar o nvm-Windows e usá-lo para instalar o Node.js e o npm (Gerenciador de
+                                Pacotes
+                                do
+                                Node).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <!-- criando pasta -->
+            <div class="container-fluid">
+                <hr>
+                <h4 class="ps-2 bordatitulos">Criando uma pasta para armazenar os projetos</h4>
+                <p>Para facilitar a instalação e prevenir erros, recomendamos que crie sua pasta dentro da pasta
+                    Documentos.
+                </p>
+                <hr class="my-4">
+            </div>
+            <!--  -->
+            <!-- angular -->
+            <div class="container-fluid">
+                <h4 class="ps-2 bordatitulos">Angular</h4>
+                <p>Para iniciarmos a instalação do Angular abra o prompt de comando no modo administrador caso
+                    tenha
+                    acesso,
+                    caso não tenha <a class="cliqueaqui" routerLink="/2">clique aqui.</a>
+                    No prompt digite o seguinte comando
+                    <b>npm install -g @angular/cli@13.0.0</b> ou <b>npm i -g @angular/cli@13.0.0</b> e pressione
+                   <b>Enter</b>,
+                    depois
+                    de instalado o próximo passo e abrir a pasta no
+                    prompt de  (usaremos a pasta com o nome <b>TutorialAngular</b> para fins de
+                    explicação).
+                </p>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/npmi.jpeg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading4">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                                Como navegar entre as pastas no Cmd (Prompt de comando).
+                            </button>
+                        </h2>
+                        <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Usando o comando cd e cd.. .</strong> O comando <b>cd</b> é usado para
+                                entrar em
+                                uma
+                                pasta
+                                apertando espaço e digitando o nome da pasta.
+                                <ul><b>Exemplo:</b><br>
+                                    <li>C:\Users\Usuario cd Documentos
+                                    </li>
+                                    <li>Aperte <b>Enter</b></li>
+                                    <li>C:\Users\Usuario\Documentos
+                                    </li>
+                                </ul> Já o comando cd.. e utilizado para sair de uma pasta.
+                                <ul><b>Exemplo:</b><br>
+                                    <li>C:\Users\Usuario\Documentos cd..</li>
+                                    <li>Aperte <b>Enter</b></li>
+                                    <li>C:\Users\Usuario</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <br>
+                <p>No prompt de volta a pasta Documentos entraremos na pasta que criamos anteriormente usando o
+                    comando
+                    <b>cd</b>.
+                </p>
+
+                <ul class="border borda ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos cd TutorialAngular</li>
+                </ul>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/pastaprojeto.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <p>Dentro da pasta TutorialAngular digite o comando a seguir para criar o projeto (Novamente
+                    usaremos o
+                    nome
+                    TutorialAngular e recomendamos que use o mesmo nome de sua pasta).</p>
+
+                <ul class="border ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular ng new TutorialAngular
+                    </li>
+                </ul>
+                <p>Para criar juntamente o arquivo de rota aperte <b>y</b> e <b>Enter</b>.</p>
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/rotay.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+                <p>Escolha o formato de folha de estilo que você irá usar. Apertando as setas do teclado para
+                    <b>Cima</b> e para <b>Baixo</b> e então pressione <b>Enter</b>.</p>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/stylesheetcss.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/install.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <p>O próximo passo entre dentro da pasta do projeto usando cd 'nome do projeto'.</p>
+
+                <ul class="border ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular cd TutorialAngular</li>
+                </ul>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/abrirtuto.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <hr class="my-4">
+                <h4 class="ps-2 bordatitulos">Componentes</h4>
+                <p>Ainda na pasta do projeto digite.</p>
+
+                <ul class="border ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular\TutorialAngular ng
+                        generate components 'nome do componente'
+                    </li>
+                    <p>ou</p>
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular\TutorialAngular ng g c
+                        'nome do componente'</li>
+                </ul>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/componentes.jpeg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <p>Pressione <b>Enter</b> este código cria arquivos component.</p>
+                <h4 class="ps-2 bordatitulos">Módulos</h4>
+                <p>Dentro da pasta do projeto escreva o seguinte.</p>
+
+                <ul class="border ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular\TutorialAngular ng
+                        generate modules 'nome do modulo'</li>
+                    <p>ou</p>
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular\TutorialAngular ng g m
+                        'nome do modulo'</li>
+                </ul>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/modulos.jpeg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+                <p>Pressione <b>Enter</b> este código cria um arquivo module.</p>
+                <hr class="my-4">
+                <h4 class="ps-2 bordatitulos">Abrindo o projeto</h4>
+                <p>Para iniciar o projeto digite.</p>
+
+                <ul class="border ps-5 rounded">
+                    <li class="py-3 pe-3">C:\Users\Usuario\Documentos\TutorialAngular\TutorialAngular ng serve
+                        -o
+                    </li>
+                </ul>
+
+                <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/iniciar.jpg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+
+                <p>Aguarde enquanto o projeto abre o navegador padrão. Feito isso minimize o prompt e você está
+                    pronto(a) para desenvolver usando uma IDE de sua escolha.</p>
+
+                <!-- accordion -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="heading5">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                                Atenção. Como fechar o projeto corretamente.
+                            </button>
+                        </h2>
+                        <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Muito cuidado</strong> a pagina só pode ser fechada pressionando
+                                as teclas <b>ctrl + c</b> no prompt de comando(cmd). Assim você encerra o
+                                programa e
+                                poderá
+                                fechar
+                                o prompt de forma segura, para que não fique funcionando em segundo plano
+                                podendo
+                                acarretar
+                                em
+                                travamentos necessitando assim que reinicie o computador.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+                <h4 class="ps-2 bordatitulos">Sobre versões</h4>
+                <p>Para saber as versões do <b>Node</b>, <b>NVM</b>, <b>NPM</b> e <b>Angular</b>.
+                    <!-- Card -->
+                <div class="d-flex justify-content-center">
+                    <div class="card tamanhocard my-3">
+                        <img src="assets/angularcmd/aver.jpeg" class="card-img-bottom p-3" alt="...">
+                    </div>
+                </div>
+                <!--  -->
+
+            </div>
+            <!--  -->
+
+        </div>
+    </div>
+    <!--  -->
+
+</body>
+
+</html>
