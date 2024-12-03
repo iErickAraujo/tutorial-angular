@@ -1,6 +1,7 @@
 # TUTORIALANGULAR
 
-Este projeto é um exemplo de tutorial em Angular que demonstra a criação de componentes, módulos e a organização de um projeto Angular.
+Este projeto é um exemplo de tutorial em Angular que demonstra a criação de componentes, módulos e a organização de um projeto Angular. 
+Projeto desenvolvido com base nos requisitos informados pelo professor.
 
 ## Índice
 
