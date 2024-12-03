@@ -1,0 +1,107 @@
+<!-- <h3>header</h3>
+<nav>
+  <a routerLink="/">pagina1</a>
+  <a routerLink="/2">pagina2</a>
+</nav>
+<router-outlet></router-outlet>
+<h3>footer</h3> -->
+<!-- NavBar -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <title>Bootstrap demo</title> -->
+  <meta name="Erick Fernando Araújo Oliveira" content="©">
+
+</head>
+
+<body>
+  <!-- NavBar -->
+  <div class="container-fluid">
+    <nav class="navbar bg-body-dark rounded-bottom mx-2 mb-2 border shadow-sm">
+      <div class="container-fluid">
+        <a routerLink="/" target="_blank" rel="noopener noreferrer" class="navbar-brand"><img
+            src="https://cdn-icons-png.flaticon.com/512/1830/1830920.png" alt="" class="img-fluid ms-2 icone"
+            width="46"></a>
+        <div class="divbarrapesquisa">
+          <form class="d-flex" role="search">
+            <input class="form-control barrapesquisa2" type="search" placeholder="Pesquisar" aria-label="Pesquisar
+                    ">
+            <button class="btn btn-outline-dark botao" type="submit">Pesquisar</button>
+          </form>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+  <!--  -->
+  <!-- Conteudo meio da pagina -->
+  <router-outlet> </router-outlet>
+  <!--  -->
+
+  <!-- Footer -->
+  <div class="container">
+    <hr class="my-4">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Seção</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Recursos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preços</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre</a></li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <!-- <h5>Seção</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Recursos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preços</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre</a></li>
+          </ul> -->
+        </div>
+
+        <div class="col-6 col-md-2 mb-3">
+          <!-- <h5>Seção</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Início</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Recursos</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Preços</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Perguntas frequentes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Sobre</a></li>
+          </ul> -->
+        </div>
+
+        <div class="col-md-5 offset-md-1 mb-3 justify-content-end">
+          <form>
+            <h5>Se inscreva para mais.</h5>
+            <p>Há vários tutoriais a sua espera.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Endereço de E-mail</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Endereço de Email">
+              <button class="btn btn-outline botaoins" type="submit">Inscreva-se</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© EFG 2023 Company, Inc. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+  <!--  -->
+
+
+</body>
+
+</html>
